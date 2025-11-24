@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:hotelbooking.mn)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --eslint)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(npm run dev:*)",
+      "WebSearch",
+      "WebFetch(domain:rapidapi.com)",
+      "Bash(dir:*)",
+      "Bash(timeout:*)",
+      "Bash(cat:*)",
+      "Bash(node test-rakuten.js:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
