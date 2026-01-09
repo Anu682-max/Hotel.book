@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[context.production.environment]
+  NEXT_PUBLIC_RAKUTEN_APP_ID = ""
+  NEXT_PUBLIC_RAKUTEN_AFFILIATE_ID = ""
